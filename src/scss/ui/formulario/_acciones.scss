@@ -5,10 +5,10 @@
     display: flex;
     justify-content: space-between;
 
-    // &--centrar {
-    //     @extend .acciones;
-    //     justify-content: center;
-    // }
+    &--centrar {
+        @extend .acciones;
+        justify-content: center;
+    }
 
     &__enlace {
         color: v.$negro;

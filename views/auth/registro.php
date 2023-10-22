@@ -2,9 +2,12 @@
     <h2 class="auth__heading"><?php echo $titulo; ?></h2>
     <p class="auth__texto">Regístrate en DevWebcamp</p> 
 
+    <?php 
+        require_once __DIR__ . '/../templates/alertas.php';
+    ?>
 
-    <form class="formulario">
-    <div class="formulario__campo">
+    <form method="POST" action="/registro" class="formulario">
+        <div class="formulario__campo">
             <label for="nombre" class="formulario__label">Nombre</label>
             <input
                 type="text"
@@ -66,7 +69,7 @@
     </form>
 
     <div class="acciones">
-        <a href="/login" class="acciones__enlace">¿Ya tienes cuenta? Iniciar sesión.</a>
+        <a href="/login" class="acciones__enlace">¿Ya tienes cuenta? Iniciar sesión</a>
         <a href="/olvide" class="acciones__enlace">¿Olvidaste tu Password?</a>
     </div>
 </main>
