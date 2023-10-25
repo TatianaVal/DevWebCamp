@@ -60,21 +60,21 @@
         }
     }
 
-//     &__radio{
-//         display: flex;
-//         gap: 2rem;
-//     }
+    &__radio{
+        display: flex;
+        gap: 2rem;
+    }
 
-//     &__texto {
-//         margin-top: 3rem;
-//     }
-//     &__imagen {
-//         max-width: 20rem;
-//     }
+    &__texto {
+        margin-top: 3rem;
+    }
+    &__imagen {
+        max-width: 20rem;
+    }
 
-//     &__listado {
-//         @include m.tags;
-//     }
+    &__listado {
+        @include m.tags;
+    }
 
     &__submit {
         @include m.boton(v.$azul, v.$blanco);
