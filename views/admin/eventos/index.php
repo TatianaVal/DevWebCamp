@@ -59,6 +59,6 @@
     <?php } ?>
 </div>
 
-<!-- <?php 
-    //echo $paginacion;
-?> -->
+<?php 
+    echo $paginacion;
+?> 
