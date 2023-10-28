@@ -12,6 +12,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/build/css/app.css">
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" defer></script>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <?php 
